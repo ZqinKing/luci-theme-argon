@@ -1772,7 +1772,11 @@ body.modal-overlay-active #modal_overlay {
   background-size: 16px;
 }
 
-
+// Fix: Restore proper positioning context for spinner in modal
+// Issue: https://github.com/jerrykuku/luci-theme-argon/issues/653
+.modal.alert-message.spinning {
+  position: relative;
+}
 
 /* luci */
 .hidden {
