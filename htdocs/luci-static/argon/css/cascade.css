@@ -729,11 +729,7 @@ select[multiple="multiple"] {
   box-shadow: rgba(0, 0, 0, 0.75) 0 0 35px -5px;
 }
 .login-page .login-container .login-form {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
